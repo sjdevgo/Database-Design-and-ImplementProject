@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/shanshanjiang/Projects/Ex_Files_Advanced_SQL_Project/Exercise Files/Final_Project_Solution.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="448"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="MediaType" custom_title="0" dock_id="1" table="4,9:mainMediaType"/><dock_state state="000000ff00000000fd00000001000000020000030000000279fc0100000001fb000000160064006f0063006b00420072006f00770073006500310100000000000003000000010100ffffff0000027e0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="MediaType" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="92"/><column index="2" value="145"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">--2.Create MediaType Table:
+
+CREATE TABLE MediaType (
+    MediaTypeID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL
+);
+
+--3.Insert values into MediaType table:
+
+INSERT INTO MediaType (MediaTypeID, Name) VALUES
+(1, 'MPEG audio file'),
+(2, 'Protected AAC audio file'),
+(3, 'Protected MPEG-4 video file'),
+(4, 'Purchased AAC audio file'),
+(5, 'AAC audio file');
+
+--4.Modify Existing Tracks Table to Include MediaTypeID:
+
+ALTER TABLE Tracks ADD COLUMN MediaTypeID INTEGER;
+
+--5. Update Tracks with appropriate MediaTypeID based on Duration
+UPDATE Tracks SET MediaTypeID = 1 WHERE Duration &lt; 180; 
+UPDATE Tracks SET MediaTypeID = 2 WHERE Duration &gt;= 180 AND Duration &lt; 240; 
+UPDATE Tracks SET MediaTypeID = 3 WHERE Duration &gt;= 240 AND Duration &lt; 300; 
+UPDATE Tracks SET MediaTypeID = 4 WHERE Duration &gt;= 300 AND Duration &lt; 360; 
+UPDATE Tracks SET MediaTypeID = 5 WHERE Duration &gt;= 360; 
+
+
+--6. Make sure foreign key relationships are enabled:
+
+PRAGMA foreign_keys = ON;
+
+--7.REVIEW AND VALIDATION:
+--Validate MediaType to Track Values:
+--Join the Tracks table with the MediaType.   
+--Validate that MediaType information is correctly associated with each track.
+--Your Query Here:
+
+SELECT 
+	Tracks.TrackID, 
+	Tracks.Title, 
+	MediaType.Name AS MediaType
+FROM 
+	Tracks
+JOIN MediaType 
+	ON Tracks.MediaTypeID = MediaType.MediaTypeID;
+	
+	
+--8. Validate Data Integrity:
+--Check for orphan records: Make sure all MediaTypeID values in Tracks table reference valid MediaType records.
+--Validate that no records are returned, confirming data integrity.
+SELECT * FROM Tracks WHERE MediaTypeID NOT IN (SELECT MediaTypeID FROM MediaType);
+
+
+--9. Review Schema Modifications:
+--Make sure the MediaType table has been correctly created.
+--erify the Tracks table includes the new MediaTypeID column.
+
+PRAGMA table_info(MediaType);
+PRAGMA table_info(Tracks);
+
+--10.Make sure the Project Meets All Requirements and Performs Optimally:
+--Confirm that the new table and relationships have been implemented as specified.
+--Validate the performance of new queries using EXPLAIN QUERY PLAN.
+EXPLAIN QUERY PLAN SELECT Tracks.TrackID, Tracks.Title, MediaType.Name AS MediaType
+FROM Tracks
+JOIN MediaType ON Tracks.MediaTypeID = MediaType.MediaTypeID;
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

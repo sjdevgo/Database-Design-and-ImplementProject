@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/Users/waltershields/Downloads/iMediaMusicDB.sqlite" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="0"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2089"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainAlbums"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Albums" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="3" mode="0"/></sort><column_widths><column index="1" value="70"/><column index="2" value="158"/><column index="3" value="98"/><column index="4" value="63"/><column index="5" value="171"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Albums_Cleaned" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="256"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Albums_New" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="70"/><column index="2" value="158"/><column index="3" value="98"/><column index="4" value="63"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Albums_Temp" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="256"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artists" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="3" mode="0"/></sort><column_widths><column index="1" value="97"/><column index="2" value="129"/><column index="3" value="220"/><column index="4" value="277"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artists_1980" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="63"/><column index="2" value="49"/><column index="3" value="76"/><column index="4" value="67"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artists_1981" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="63"/><column index="2" value="101"/><column index="3" value="88"/><column index="4" value="67"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artists_1986" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="63"/><column index="2" value="111"/><column index="3" value="88"/><column index="4" value="67"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artists_1987" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="63"/><column index="2" value="110"/><column index="3" value="88"/><column index="4" value="67"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artists_Cleaned" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="242"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artists_New" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="63"/><column index="2" value="49"/><column index="3" value="67"/><column index="4" value="76"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artists_Temp" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="242"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Genres" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="67"/><column index="2" value="115"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Genres_Cleaned" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="67"/><column index="2" value="115"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Genres_Temp" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="67"/><column index="2" value="115"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="OperationLog" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="51"/><column index="2" value="113"/><column index="3" value="87"/><column index="4" value="75"/><column index="5" value="151"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Tracks" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="63"/><column index="2" value="186"/><column index="3" value="89"/><column index="4" value="70"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Tracks_Cleaned" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="63"/><column index="2" value="186"/><column index="3" value="70"/><column index="4" value="70"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Tracks_Temp" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="63"/><column index="2" value="186"/><column index="3" value="70"/><column index="4" value="70"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 9">/*Creating a Non-Normalized Schema*/
+
+--Create Artists Table:
+CREATE TABLE Artists (
+			ArtistID INTEGER PRIMARY KEY,
+            Name TEXT NOT NULL,
+            BirthDate DATE,
+            Genre TEXT -- Redundant data
+             );
+			
+			
+--Create Albums Table:
+CREATE TABLE Albums (
+                 AlbumID INTEGER PRIMARY KEY,
+                 Title TEXT NOT NULL,
+                 ReleaseDate DATE,
+                 ArtistID INTEGER,
+                 Genre TEXT, -- Redundant data
+                 FOREIGN KEY (ArtistID) REFERENCES Artists(ArtistID)
+             );
+            
+ 
+ --Create Tracks Table:
+		CREATE TABLE Tracks (
+                 TrackID INTEGER PRIMARY KEY,
+                 Title TEXT NOT NULL,
+                 Duration INTEGER,
+                 AlbumID INTEGER,
+                 ArtistGenre TEXT, -- Transitive dependency
+                 FOREIGN KEY (AlbumID) REFERENCES Albums(AlbumID)
+             );
+             
+--Create Genres Table:
+CREATE TABLE Genres (
+                 GenreID INTEGER PRIMARY KEY,
+                 Name TEXT NOT NULL
+             );</sql><sql name="SQL 10">/*Implement the Normalized Schema*/
+
+--Artists Table:
+-- Step 1: Create a New Table Without the Genre Column
+            CREATE TABLE Artists_New (
+                ArtistID INTEGER PRIMARY KEY,
+                 Name TEXT NOT NULL,
+                 BirthDate DATE,
+                 GenreID INTEGER,
+                 FOREIGN KEY (GenreID) REFERENCES Genres(GenreID)
+                 );
+            
+-- Step 2: Drop the Original Table
+             DROP TABLE Artists;
+             
+-- Step 3: Rename the New Table to the Original Table Name
+             ALTER TABLE Artists_New RENAME TO Artists;
+             
+-- Step 4: Create Index on GenreID
+             CREATE INDEX idx_artist_genre ON Artists(GenreID);
+			 
+--Albums Table:
+			 CREATE TABLE Albums_New (
+                 AlbumID INTEGER PRIMARY KEY,
+                 Title TEXT NOT NULL,
+                 ReleaseDate DATE,
+                 ArtistID INTEGER,
+                 FOREIGN KEY (ArtistID) REFERENCES Artists(ArtistID)
+             );
+             
+             DROP TABLE Albums;
+             
+             ALTER TABLE Albums_New RENAME TO Albums;
+             
+--Tracks Table:
+				CREATE TABLE Tracks_New (
+                 TrackID INTEGER PRIMARY KEY,
+                 Title TEXT NOT NULL,
+                 Duration INTEGER,
+                 AlbumID INTEGER,
+                 FOREIGN KEY (AlbumID) REFERENCES Albums(AlbumID)
+             );
+             
+             DROP TABLE Tracks;
+             
+             ALTER TABLE Tracks_New RENAME TO Tracks;</sql><sql name="SQL 11">/*Validate and Refine the Normalized Schema*/
+
+             -- Artists table
+             -- Step 1: Create a new table with the necessary constraints
+             /*
+             This step involves creating a new table with constraints to ensure data integrity:
+             - The NOT NULL constraint ensures that certain columns cannot have NULL values (column-level constraint).
+             - The CHECK constraint ensures that certain conditions are met (table-level constraint).
+             - The PRIMARY KEY constraint ensures unique identification of each record.
+             - The FOREIGN KEY constraint maintains referential integrity between tables.
+             */
+             CREATE TABLE Artists_New (
+                 ArtistID INTEGER PRIMARY KEY, -- Primary key constraint
+                 Name TEXT NOT NULL, -- Column-level NOT NULL constraint
+                 BirthDate DATE NOT NULL, -- Column-level NOT NULL constraint
+                 GenreID INTEGER, -- Foreign key column
+                 FOREIGN KEY (GenreID) REFERENCES Genres(GenreID), -- Foreign key constraint
+                 CHECK (BirthDate &lt;= DATE('now', '-18 years')) -- Table-level CHECK constraint to ensure valid birth dates
+             );
+             
+             -- Step 2: Drop the old Artists table
+             DROP TABLE Artists;
+             
+             -- Step 3: Rename the new table to the original table name
+             ALTER TABLE Artists_New RENAME TO Artists;
+             
+             
+             -- Albums table
+             /*
+             Similar to the Artists table, this step creates a new Albums table with constraints:
+             - Ensures the Title column cannot be NULL.
+             - Ensures the ReleaseDate is valid.
+             - Ensures referential integrity with the Artists table.
+             */
+             CREATE TABLE Albums_New (
+                 AlbumID INTEGER PRIMARY KEY, -- Primary key constraint
+                 Title TEXT NOT NULL, -- Column-level NOT NULL constraint
+                 ReleaseDate DATE, -- No specific constraint needed
+                 ArtistID INTEGER, -- Foreign key column
+                 FOREIGN KEY (ArtistID) REFERENCES Artists(ArtistID), -- Foreign key constraint
+                 CHECK (Title IS NOT NULL) -- Table-level CHECK constraint to ensure Title is not NULL (somewhat redundant)
+             );
+             
+             -- Drop the old Albums table
+             DROP TABLE Albums;
+             
+             -- Rename the new table to the original table name
+             ALTER TABLE Albums_New RENAME TO Albums;
+             
+             
+             -- Tracks table
+             /*
+             This step creates a new Tracks table with constraints:
+             - Ensures the Title column cannot be NULL.
+             - Ensures the Duration is greater than 0.
+             - Ensures referential integrity with the Albums table.
+             */
+             CREATE TABLE Tracks_New (
+                 TrackID INTEGER PRIMARY KEY, -- Primary key constraint
+                 Title TEXT NOT NULL, -- Column-level NOT NULL constraint
+                 Duration INTEGER CHECK (Duration &gt; 0), -- Table-level CHECK constraint to ensure valid duration
+                 AlbumID INTEGER, -- Foreign key column
+                 FOREIGN KEY (AlbumID) REFERENCES Albums(AlbumID), -- Foreign key constraint
+                 CHECK (Title IS NOT NULL) -- Table-level CHECK constraint to ensure Title is not NULL (somewhat redundant)
+             );
+             
+             -- Drop the old Tracks table
+             DROP TABLE Tracks;
+             
+             -- Rename the new table to the original table name
+             ALTER TABLE Tracks_New RENAME TO Tracks;
+             
+        2.Create Indexes:
+           --* Run the following SQL commands:
+		   -- Creating indexes to improve query performance
+		    CREATE INDEX idx_artist_name ON Artists(Name);
+            CREATE INDEX idx_album_title ON Albums(Title);
+            CREATE INDEX idx_track_title ON Tracks(Title);
+            CREATE INDEX idx_genre_name ON Genres(Name);</sql><sql name="SQL 5">/*
+ETL Process
+*/
+
+/*
+sqlite3 /Users/waltershields/Downloads/iMediaMusicDB.sqlite &lt;&lt;EOF
+
+-- Extract This occurs in the CLI
+.mode csv
+.import '/Users/waltershields/Downloads/MusicDBCourseFiles/Artists_Raw.csv' Artists_Temp
+.import '/Users/waltershields/Downloads/MusicDBCourseFiles/Albums_Raw.csv' Albums_Temp
+.import '/Users/waltershields/Downloads/MusicDBCourseFiles/Tracks_Raw.csv' Tracks_Temp
+.import '/Users/waltershields/Downloads/MusicDBCourseFiles/Genres_Raw.csv' Genres_Temp
+*/
+
+-- Validate and clean the temporary tables
+-- Ensure GenreID in Artists_Temp is valid
+DELETE FROM Artists_Temp WHERE GenreID NOT IN (SELECT GenreID FROM Genres_Temp);
+
+-- Ensure ArtistID in Albums_Temp is valid
+DELETE FROM Albums_Temp WHERE ArtistID NOT IN (SELECT ArtistID FROM Artists_Temp);
+
+-- Ensure AlbumID in Tracks_Temp is valid
+DELETE FROM Tracks_Temp WHERE AlbumID NOT IN (SELECT AlbumID FROM Albums_Temp);
+
+
+-- Transform
+-- Artists Table
+CREATE TABLE Artists_Cleaned AS SELECT * FROM Artists_Temp;
+DELETE FROM Artists_Cleaned WHERE Name IS NULL OR Name = '';
+DELETE FROM Artists_Cleaned WHERE rowid NOT IN (SELECT MIN(rowid) FROM Artists_Cleaned GROUP BY ArtistID);
+UPDATE Artists_Cleaned SET Name = TRIM(Name);
+
+-- Ensure ArtistID in Albums_Temp is valid
+DELETE FROM Albums_Temp WHERE ArtistID NOT IN (SELECT ArtistID FROM Artists_Temp);
+
+-- Albums Table
+CREATE TABLE Albums_Cleaned AS SELECT * FROM Albums_Temp;
+DELETE FROM Albums_Cleaned WHERE Title IS NULL OR Title = '';
+DELETE FROM Albums_Cleaned WHERE rowid NOT IN (SELECT MIN(rowid) FROM Albums_Cleaned GROUP BY AlbumID);
+UPDATE Albums_Cleaned SET Title = TRIM(Title);
+
+-- Ensure ArtistID in Albums_Cleaned is valid (post-transformation validation)
+DELETE FROM Albums_Cleaned WHERE ArtistID NOT IN (SELECT ArtistID FROM Artists_Cleaned);
+
+
+-- Tracks Table
+CREATE TABLE Tracks_Cleaned AS SELECT * FROM Tracks_Temp;
+DELETE FROM Tracks_Cleaned WHERE Title IS NULL OR Title = '';
+UPDATE Tracks_Cleaned SET Duration = Duration * 60; -- Assuming Duration was in minutes, convert to seconds
+DELETE FROM Tracks_Cleaned WHERE Duration &lt;= 0; -- Ensure Duration is greater than 0
+
+-- Ensure AlbumID in Tracks_Cleaned is valid (post-transformation validation)
+DELETE FROM Tracks_Cleaned WHERE AlbumID NOT IN (SELECT AlbumID FROM Albums_Cleaned);
+
+-- Genres Table
+CREATE TABLE Genres_Cleaned AS SELECT * FROM Genres_Temp;
+DELETE FROM Genres_Cleaned WHERE Name IS NULL OR Name = '';
+
+-- Load
+PRAGMA foreign_keys = OFF;
+
+INSERT INTO Genres (GenreID, Name)
+SELECT GenreID, Name FROM Genres_Cleaned;
+
+INSERT INTO Artists (ArtistID, Name, BirthDate, GenreID)
+SELECT ArtistID, Name, BirthDate, GenreID FROM Artists_Cleaned;
+
+INSERT INTO Albums (AlbumID, Title, ReleaseDate, ArtistID)
+SELECT AlbumID, Title, ReleaseDate, ArtistID FROM Albums_Cleaned;
+
+INSERT INTO Tracks (TrackID, Title, Duration, AlbumID)
+SELECT TrackID, Title, Duration, AlbumID FROM Tracks_Cleaned
+WHERE Duration &gt; 0; -- Ensure Duration is greater than 0
+
+PRAGMA foreign_keys = ON;
+
+-- Clean up
+DROP TABLE IF EXISTS Artists_Temp;
+DROP TABLE IF EXISTS Albums_Temp;
+DROP TABLE IF EXISTS Tracks_Temp;
+DROP TABLE IF EXISTS Genres_Temp;
+
+DROP TABLE IF EXISTS Artists_Cleaned;
+DROP TABLE IF EXISTS Albums_Cleaned;
+DROP TABLE IF EXISTS Tracks_Cleaned;
+DROP TABLE IF EXISTS Genres_Cleaned;
+EOF
+</sql><sql name="SQL 5">/*
+Automated ETL Pipeline
+*/
+
+
+#!/bin/bash
+echo &quot;ETL script started&quot;
+
+sqlite3 /Users/waltershields/Downloads/iMediaMusicDB.sqlite &lt;&lt;EOF
+
+-- Temporarily disable foreign key constraints
+PRAGMA foreign_keys = OFF;
+
+-- Clear existing data
+DELETE FROM Genres;
+DELETE FROM Artists;
+DELETE FROM Albums;
+DELETE FROM Tracks;
+
+
+-- Re-enable foreign key constraints
+PRAGMA foreign_keys = ON;
+
+
+-- Extract
+.mode csv
+.import '/Users/waltershields/Downloads/MusicDBCourseFiles/Artists_Raw.csv' Artists_Temp
+.import '/Users/waltershields/Downloads/MusicDBCourseFiles/Albums_Raw.csv' Albums_Temp
+.import '/Users/waltershields/Downloads/MusicDBCourseFiles/Tracks_Raw.csv' Tracks_Temp
+.import '/Users/waltershields/Downloads/MusicDBCourseFiles/Genres_Raw.csv' Genres_Temp
+
+
+-- Validate and clean the temporary tables
+-- Ensure GenreID in Artists_Temp is valid
+DELETE FROM Artists_Temp WHERE GenreID NOT IN (SELECT GenreID FROM Genres_Temp);
+
+-- Ensure ArtistID in Albums_Temp is valid
+DELETE FROM Albums_Temp WHERE ArtistID NOT IN (SELECT ArtistID FROM Artists_Temp);
+
+-- Ensure AlbumID in Tracks_Temp is valid
+DELETE FROM Tracks_Temp WHERE AlbumID NOT IN (SELECT AlbumID FROM Albums_Temp);
+
+
+-- Transform
+-- Artists Table
+CREATE TABLE Artists_Cleaned AS SELECT * FROM Artists_Temp;
+DELETE FROM Artists_Cleaned WHERE Name IS NULL OR Name = '';
+DELETE FROM Artists_Cleaned WHERE rowid NOT IN (SELECT MIN(rowid) FROM Artists_Cleaned GROUP BY ArtistID);
+UPDATE Artists_Cleaned SET Name = TRIM(Name);
+
+-- Ensure ArtistID in Albums_Temp is valid
+DELETE FROM Albums_Temp WHERE ArtistID NOT IN (SELECT ArtistID FROM Artists_Temp);
+
+-- Albums Table
+CREATE TABLE Albums_Cleaned AS SELECT * FROM Albums_Temp;
+DELETE FROM Albums_Cleaned WHERE Title IS NULL OR Title = '';
+DELETE FROM Albums_Cleaned WHERE rowid NOT IN (SELECT MIN(rowid) FROM Albums_Cleaned GROUP BY AlbumID);
+UPDATE Albums_Cleaned SET Title = TRIM(Title);
+
+-- Ensure ArtistID in Albums_Cleaned is valid (post-transformation validation)
+DELETE FROM Albums_Cleaned WHERE ArtistID NOT IN (SELECT ArtistID FROM Artists_Cleaned);
+
+
+-- Tracks Table
+CREATE TABLE Tracks_Cleaned AS SELECT * FROM Tracks_Temp;
+DELETE FROM Tracks_Cleaned WHERE Title IS NULL OR Title = '';
+UPDATE Tracks_Cleaned SET Duration = Duration * 60; -- Assuming Duration was in minutes, convert to seconds
+DELETE FROM Tracks_Cleaned WHERE Duration &lt;= 0; -- Ensure Duration is greater than 0
+
+-- Ensure AlbumID in Tracks_Cleaned is valid (post-transformation validation)
+DELETE FROM Tracks_Cleaned WHERE AlbumID NOT IN (SELECT AlbumID FROM Albums_Cleaned);
+
+-- Genres Table
+CREATE TABLE Genres_Cleaned AS SELECT * FROM Genres_Temp;
+DELETE FROM Genres_Cleaned WHERE Name IS NULL OR Name = '';
+
+-- Load
+PRAGMA foreign_keys = OFF;
+
+INSERT INTO Genres (GenreID, Name)
+SELECT GenreID, Name FROM Genres_Cleaned;
+
+INSERT INTO Artists (ArtistID, Name, BirthDate, GenreID)
+SELECT ArtistID, Name, BirthDate, GenreID FROM Artists_Cleaned;
+
+INSERT INTO Albums (AlbumID, Title, ReleaseDate, ArtistID)
+SELECT AlbumID, Title, ReleaseDate, ArtistID FROM Albums_Cleaned;
+
+INSERT INTO Tracks (TrackID, Title, Duration, AlbumID)
+SELECT TrackID, Title, Duration, AlbumID FROM Tracks_Cleaned
+WHERE Duration &gt; 0; -- Ensure Duration is greater than 0
+
+PRAGMA foreign_keys = ON;
+
+-- Clean up
+DROP TABLE IF EXISTS Artists_Temp;
+DROP TABLE IF EXISTS Albums_Temp;
+DROP TABLE IF EXISTS Tracks_Temp;
+DROP TABLE IF EXISTS Genres_Temp;
+
+DROP TABLE IF EXISTS Artists_Cleaned;
+DROP TABLE IF EXISTS Albums_Cleaned;
+DROP TABLE IF EXISTS Tracks_Cleaned;
+DROP TABLE IF EXISTS Genres_Cleaned;
+EOF
+
+if [ $? -eq 0 ]; then
+    echo &quot;ETL script completed successfully&quot;
+else
+    echo &quot;ETL script encountered an error&quot;
+fi
+
+echo &quot;ETL script ended&quot;
+</sql><sql name="SQL 5">        /*
+		Advanced Error Handling and Logging
+		*/
+		
+		-- Trigger for error handling during insert
+		CREATE TRIGGER error_handling_insert
+        BEFORE INSERT ON Albums
+        FOR EACH ROW
+        BEGIN
+            SELECT CASE
+                WHEN NEW.ArtistID NOT IN (SELECT ArtistID FROM Artists) THEN
+                     RAISE(ABORT, 'Invalid ArtistID')
+             END;
+         END;
+		 
+		 
+		  -- Creating a log table
+       CREATE TABLE OperationLog (
+           LogID INTEGER PRIMARY KEY,
+           OperationType TEXT,
+           TableName TEXT,
+           RecordID INTEGER,
+           Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+		          );
+		   
+		  -- Trigger to log inserts
+         CREATE TRIGGER log_insert
+         AFTER INSERT ON Artists
+         FOR EACH ROW
+         BEGIN
+             INSERT INTO OperationLog (OperationType, TableName, RecordID)
+             VALUES ('INSERT', 'Artists', NEW.ArtistID);
+         END;
+		 
+		 
+		 
+--Test Insert Statements
+		 
+--Insert a valid artist into the Artists table
+		 INSERT INTO Artists (ArtistID, Name, GenreID, BirthDate)
+VALUES (999, 'The Beatles', 999, '7/10/40');
+
+
+--Insert a valid album with a valid ArtistID into the Albums table
+INSERT INTO Albums (AlbumID, Title, ArtistID, ReleaseDate)
+VALUES (998, 'Abbey Road', 1, '9/26/69');
+
+--Insert an album with an invalid ArtistID into the Albums table (should trigger error handling)
+INSERT INTO Albums (AlbumID, Title, ArtistID, ReleaseDate)
+VALUES (2, 'Unknown Album', 996, '1/1/21');
+
+
+</sql><sql name="SQL 6">/*
+Validation Techniques
+*/
+
+-- 1. Validating album release dates
+SELECT * FROM Albums WHERE ReleaseDate &gt; DATE('now');
+
+
+
+
+-- CORRECTION METHOD
+-- Add New Column
+ALTER TABLE Albums ADD COLUMN ReleaseDateFormatted DATE;
+
+-- Update the New Column
+UPDATE Albums SET ReleaseDateFormatted = 
+  CASE 
+    -- Handle dates with two-digit year (00-99)
+    WHEN LENGTH(SUBSTR(ReleaseDate, -2)) = 2 THEN
+      CASE
+        -- Convert years 00-23 to 2000-2023
+        WHEN CAST(SUBSTR(ReleaseDate, -2) AS INTEGER) &lt; 24 THEN
+          '20' || SUBSTR(ReleaseDate, -2) || '-' ||
+          SUBSTR('0' || REPLACE(SUBSTR(ReleaseDate, 1, INSTR(ReleaseDate, '/') - 1), '/', ''), -2) || '-' ||
+          SUBSTR('0' || REPLACE(SUBSTR(SUBSTR(ReleaseDate, INSTR(ReleaseDate, '/') + 1), 1, INSTR(SUBSTR(ReleaseDate, INSTR(ReleaseDate, '/') + 1), '/') - 1), '/', ''), -2)
+        -- Convert years 24-99 to 1924-1999
+        ELSE
+          '19' || SUBSTR(ReleaseDate, -2) || '-' ||
+          SUBSTR('0' || REPLACE(SUBSTR(ReleaseDate, 1, INSTR(ReleaseDate, '/') - 1), '/', ''), -2) || '-' ||
+          SUBSTR('0' || REPLACE(SUBSTR(SUBSTR(ReleaseDate, INSTR(ReleaseDate, '/') + 1), 1, INSTR(SUBSTR(ReleaseDate, INSTR(ReleaseDate, '/') + 1), '/') - 1), '/', ''), -2)
+      END
+    ELSE
+      NULL
+  END
+WHERE ReleaseDate IS NOT NULL;
+
+-- Update null dates to a default value
+UPDATE Albums SET ReleaseDateFormatted = '9999-12-31' WHERE ReleaseDateFormatted IS NULL;
+
+
+-- Verify the Updated Dates
+SELECT ReleaseDate, ReleaseDateFormatted FROM Albums WHERE ReleaseDateFormatted IS NULL;
+
+-- Manually Fix Any Remaining Problematic Dates
+UPDATE Albums SET ReleaseDateFormatted = 'YYYY-MM-DD' WHERE ReleaseDate = 'MM/DD/YY';
+
+-- Replace the Old Column
+CREATE TABLE Albums_New (
+    AlbumID INTEGER PRIMARY KEY, -- Primary key constraint
+    Title TEXT NOT NULL, -- Column-level NOT NULL constraint
+    ReleaseDate DATE, -- No specific constraint needed
+    ArtistID INTEGER, -- Foreign key column
+    FOREIGN KEY (ArtistID) REFERENCES Artists(ArtistID), -- Foreign key constraint
+    CHECK (Title IS NOT NULL) -- Table-level CHECK constraint to ensure Title is not NULL (somewhat redundant)
+);
+
+INSERT INTO Albums_New (AlbumID, Title, ArtistID, ReleaseDate)
+SELECT DISTINCT AlbumID, Title, ArtistID, ReleaseDateFormatted
+FROM Albums;
+
+DROP TABLE Albums;
+ALTER TABLE Albums_New RENAME TO Albums;
+
+-- Create index on Albums title
+CREATE INDEX idx_album_title ON Albums(Title);
+
+-- Run the Verification Query Again
+SELECT * FROM Albums WHERE ReleaseDate &gt; DATE('now');
+
+
+
+
+
+
+
+-- 2. Validating foreign key references
+SELECT * FROM Albums WHERE ArtistID NOT IN (SELECT ArtistID FROM Artists);
+
+
+
+
+
+-- 3. Validating Artists Birthdates
+SELECT * FROM Artists WHERE BirthDate &gt; DATE('now');
+
+-- Add a New Column
+ALTER TABLE Artists ADD COLUMN BirthDateFormatted DATE;
+
+-- Update the New Column with Proper Date Conversion
+UPDATE Artists SET BirthDateFormatted = 
+  CASE 
+    -- Handle dates with two-digit year (00-99)
+    WHEN LENGTH(SUBSTR(BirthDate, -2)) = 2 THEN
+      CASE
+        -- Convert years 00-23 to 2000-2023
+        WHEN CAST(SUBSTR(BirthDate, -2) AS INTEGER) &lt; 24 THEN
+          '20' || SUBSTR(BirthDate, -2) || '-' ||
+          SUBSTR('0' || REPLACE(SUBSTR(BirthDate, 1, INSTR(BirthDate, '/') - 1), '/', ''), -2) || '-' ||
+          SUBSTR('0' || REPLACE(SUBSTR(SUBSTR(BirthDate, INSTR(BirthDate, '/') + 1), 1, INSTR(SUBSTR(BirthDate, INSTR(BirthDate, '/') + 1), '/') - 1), '/', ''), -2)
+        -- Convert years 24-99 to 1924-1999
+        ELSE
+          '19' || SUBSTR(BirthDate, -2) || '-' ||
+          SUBSTR('0' || REPLACE(SUBSTR(BirthDate, 1, INSTR(BirthDate, '/') - 1), '/', ''), -2) || '-' ||
+          SUBSTR('0' || REPLACE(SUBSTR(SUBSTR(BirthDate, INSTR(BirthDate, '/') + 1), 1, INSTR(SUBSTR(BirthDate, INSTR(BirthDate, '/') + 1), '/') - 1), '/', ''), -2)
+      END
+    ELSE
+      NULL
+  END
+WHERE BirthDate IS NOT NULL;
+
+-- Update null dates to a default value
+UPDATE Artists SET BirthDateFormatted = '9999-12-31' WHERE BirthDateFormatted IS NULL;
+
+
+-- Verify the Updated Dates
+SELECT BirthDate, BirthDateFormatted FROM Artists WHERE BirthDateFormatted IS NULL;
+
+-- Manually Fix Any Remaining Problematic Dates
+UPDATE Artists SET BirthDateFormatted = 'YYYY-MM-DD' WHERE BirthDate = 'MM/DD/YY';
+
+-- Drop the Old Column and Rename the New Column
+CREATE TABLE Artists_New (
+    ArtistID INTEGER PRIMARY KEY, -- Primary key constraint
+    Name TEXT NOT NULL, -- Column-level NOT NULL constraint
+    BirthDate DATE NOT NULL, -- Column-level NOT NULL constraint
+    GenreID INTEGER, -- Foreign key column
+    FOREIGN KEY (GenreID) REFERENCES Genres(GenreID) -- Foreign key constraint
+);
+
+INSERT INTO Artists_New (ArtistID, Name, GenreID, BirthDate)
+SELECT DISTINCT ArtistID, Name, GenreID, BirthDateFormatted
+FROM Artists;
+
+DROP TABLE Artists;
+ALTER TABLE Artists_New RENAME TO Artists;
+
+-- Create index on Artists name
+CREATE INDEX idx_artist_name ON Artists(Name);
+
+-- Run the Artist Birthdate verification Query Again
+SELECT * FROM Artists WHERE BirthDate &gt; DATE('now');
+</sql><sql name="SQL 7">/*
+Module 5: Writing Basic to Complex SQL Queries
+*/
+
+-- Selecting all artists
+SELECT * FROM Artists;
+
+--Specific Columns
+SELECT Name, GenreID FROM Artists;
+
+
+ -- Filtering data (Pop)
+SELECT * FROM Artists WHERE GenreID = 2;
+
+ -- Sorting results
+SELECT * FROM Artists ORDER BY Name ASC;
+
+
+
+/*Aggregating Data*/
+
+-- Counting the number of artists
+SELECT COUNT(*) FROM Artists;
+
+-- Grouping data
+SELECT GenreID, COUNT(*) FROM Artists GROUP BY GenreID;
+
+-- Filtering grouped data
+SELECT GenreID, COUNT(*) FROM Artists GROUP BY GenreID HAVING COUNT(*) &gt; 5;
+
+
+
+
+/*Joining Tables*/
+
+SELECT Artists.Name, Albums.Title FROM Artists
+INNER JOIN Albums ON Artists.ArtistID = Albums.ArtistID;
+
+-- Left join
+SELECT Artists.Name, Albums.Title FROM Artists
+ LEFT JOIN Albums ON Artists.ArtistID = Albums.ArtistID;
+ 
+ SELECT * FROM Tracks t left join Albums a ON a.AlbumID = t.AlbumID
+
+ 
+ /* Data Analysis*/
+ 
+ 
+ -- Finding top artists by the number of albums
+ SELECT Artists.Name, COUNT(Albums.AlbumID) AS AlbumCount
+FROM Artists
+ INNER JOIN Albums ON Artists.ArtistID = Albums.ArtistID
+GROUP BY Artists.Name
+ORDER BY AlbumCount DESC;
+
+
+-- Identifying popular genres
+ SELECT Genres.Name, COUNT(*) AS ArtistCount
+ FROM Artists INNER JOIN Genres ON Artists.GenreID = Genres.GenreID
+GROUP BY Artists.GenreID
+ORDER BY ArtistCount DESC;
+
+-- Analyzing the most played tracks
+SELECT Tracks.Title, SUM(Duration) AS TotalPlays
+FROM Tracks
+GROUP BY Tracks.Title
+ORDER BY TotalPlays DESC;</sql><sql name="SQL 8">/* 
+Techniques for Optimizing SQL Queries
+*/
+
+-- Identifying slow-performing queries
+EXPLAIN QUERY PLAN SELECT * FROM Tracks WHERE Duration &gt; 1000;
+
+
+-- Creating an index to speed up queries
+CREATE INDEX idx_duration ON Tracks(Duration);
+
+-- Observing performance improvements
+EXPLAIN QUERY PLAN SELECT * FROM Tracks WHERE Duration &gt; 1000;
+
+
+
+/*Optimizing Query Structures*/
+
+-- Original query with unnecessary columns
+SELECT * FROM Artists INNER JOIN Albums ON Artists.ArtistID = Albums.ArtistID;
+
+-- Optimized query
+SELECT Artists.Name, Albums.Title FROM Artists
+INNER JOIN Albums ON Artists.ArtistID = Albums.ArtistID;
+
+
+
+--Partitioning Techniques
+
+-- Creating partitioned tables by year
+CREATE TABLE Artists_1986 AS SELECT * FROM Artists WHERE strftime('%Y', BirthDate) = '1986';
+CREATE TABLE Artists_1987 AS SELECT * FROM Artists WHERE strftime('%Y', BirthDate) = '1987';
+
+
+-- Creating view to simplify access
+CREATE VIEW All_Artists AS
+SELECT * FROM Artists_1986
+UNION ALL
+SELECT * FROM Artists_1987;
+
+--Check the View's records
+SELECT * FROM All_Artists
+
+
+
+/*Creating View*/
+
+-- Creating a view
+CREATE VIEW Popular_Artists AS
+SELECT Name, COUNT(Albums.AlbumID) AS AlbumCount
+FROM Artists
+INNER JOIN Albums ON Artists.ArtistID = Albums.ArtistID
+GROUP BY Artists.Name;
+
+ -- Using the view
+SELECT * FROM Popular_Artists;
+
+
+/*Batch Processing and Parallel Execution*/
+-- Batch processing example
+UPDATE Tracks SET Duration = Duration + 1 WHERE TrackID BETWEEN 1 AND 30;
+UPDATE Tracks SET Duration = Duration + 1 WHERE TrackID BETWEEN 31 AND 60;
+
+ -- Simulating parallel execution (typically handled by application logic)
+PRAGMA synchronous = OFF;  -- Example to speed up insertions</sql><sql name="SQL 11">/*
+ Final Project
+ 
+ */
+ 
+--2.  Create MediaType Table:
+
+CREATE TABLE MediaType (
+    MediaTypeID INTEGER PRIMARY KEY,
+    Name TEXT NOT NULL
+);
+
+
+--3.  Insert values into MediaType table:
+
+INSERT INTO MediaType (MediaTypeID, Name) VALUES
+(1, 'MPEG audio file'),
+(2, 'Protected AAC audio file'),
+(3, 'Protected MPEG-4 video file'),
+(4, 'Purchased AAC audio file'),
+(5, 'AAC audio file');
+
+
+
+--4.  Modify Existing Tracks Table to Include MediaTypeID:
+
+ALTER TABLE Tracks ADD COLUMN MediaTypeID INTEGER;
+
+
+--5.	Update Tracks with appropriate MediaTypeID based on Duration:
+
+UPDATE Tracks SET MediaTypeID = 1 WHERE Duration &lt; 180; 
+UPDATE Tracks SET MediaTypeID = 2 WHERE Duration &gt;= 180 AND Duration &lt; 240; 
+UPDATE Tracks SET MediaTypeID = 3 WHERE Duration &gt;= 240 AND Duration &lt; 300; 
+UPDATE Tracks SET MediaTypeID = 4 WHERE Duration &gt;= 300 AND Duration &lt; 360; 
+UPDATE Tracks SET MediaTypeID = 5 WHERE Duration &gt;= 360; 
+
+
+
+
+--6.	Make sure foreign key relationships are enabled:
+
+PRAGMA foreign_keys = ON;
+
+
+--7.	Validate MediaType to Track Values:
+	--Join the Tracks table with the MediaType.   
+	--Validate that MediaType information is correctly associated with each track.
+
+SELECT 
+	Tracks.TrackID, 
+	Tracks.Title, 
+	MediaType.Name AS MediaType
+FROM 
+	Tracks
+JOIN MediaType 
+	ON Tracks.MediaTypeID = MediaType.MediaTypeID;
+
+
+
+
+--8. Validate Data Integrity:
+	-- Check for orphan records: Make sure all MediaTypeID values in Tracks table reference valid MediaType records.
+    --  Validate that no records are returned, confirming data integrity.
+	
+SELECT * FROM Tracks WHERE MediaTypeID NOT IN (SELECT MediaTypeID FROM MediaType);
+
+
+
+--9. Review Schema Modifications:
+		--	Make sure the MediaType table has been correctly created.
+		-- Verify the Tracks table includes the new MediaTypeID column.
+
+PRAGMA table_info(MediaType);
+PRAGMA table_info(Tracks);
+
+
+
+
+
+--10.	Make sure the Project Meets All Requirements and Performs Optimally:
+		-- Confirm that the new table and relationships have been implemented as specified.
+		--Validate the performance of new queries using EXPLAIN QUERY PLAN.
+
+EXPLAIN QUERY PLAN SELECT Tracks.TrackID, Tracks.Title, MediaType.Name AS MediaType
+FROM Tracks
+JOIN MediaType ON Tracks.MediaTypeID = MediaType.MediaTypeID;
+
+
+</sql><current_tab id="9"/></tab_sql></sqlb_project>
