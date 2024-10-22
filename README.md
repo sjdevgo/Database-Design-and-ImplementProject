@@ -6,8 +6,8 @@ Key Components:
 
 Relational Database:
 
-A relational database organizes data into tables, which can be linked—or related—based on data common to each.
-Understand the importance of relationships (e.g., one-to-many, many-to-many) in structuring data effectively.
+* A relational database organizes data into tables, which can be linked—or related—based on data common to each.
+* Understand the importance of relationships (e.g., one-to-many, many-to-many) in structuring data effectively.
 Normalization:
 
 Definition: The process of organizing data to reduce redundancy and improve data integrity.
