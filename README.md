@@ -10,12 +10,12 @@ Relational Database:
 * Understand the importance of relationships (e.g., one-to-many, many-to-many) in structuring data effectively.
 Normalization:
 
-Definition: The process of organizing data to reduce redundancy and improve data integrity.
-3NF (Third Normal Form): Ensure that:
-Each table has a primary key.
-Each column is dependent on the primary key.
-No transitive dependency exists (non-key attributes should depend only on the primary key).
-Be prepared to explain how you applied normalization in your project.
+* Definition: The process of organizing data to reduce redundancy and improve data integrity.
+* 3NF (Third Normal Form): Ensure that:
+** Each table has a primary key.
+** Each column is dependent on the primary key.
+** No transitive dependency exists (non-key attributes should depend only on the primary key).
+* Be prepared to explain how you applied normalization in your project.
 Schema Development:
 
 Schema: The structure of your database, including tables, fields (columns), data types, and relationships.
