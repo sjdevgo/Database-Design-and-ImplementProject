@@ -4,11 +4,11 @@ Overview:
 ## Goal: To design and implement a fully functional relational database for a real-world application using DB Browser for SQLite.
 Key Components:
 
-Relational Database:
+1. Relational Database:
 
 * A relational database organizes data into tables, which can be linked—or related—based on data common to each.
 * Understand the importance of relationships (e.g., one-to-many, many-to-many) in structuring data effectively.
-Normalization:
+2. Normalization:
 
 * Definition: The process of organizing data to reduce redundancy and improve data integrity.
 * 3NF (Third Normal Form): Ensure that:
