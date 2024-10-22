@@ -1,4 +1,4 @@
-Database Design and Implementation Project (2024)
+#Database Design and Implementation Project (2024)
 Overview:
 
 Goal: To design and implement a fully functional relational database for a real-world application using DB Browser for SQLite.
